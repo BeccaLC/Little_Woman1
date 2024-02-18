@@ -64,3 +64,10 @@ ggplot(data = lw, mapping = aes(x = Name, y = Times.Mentioned, fill = Name)
 
  # pushing to Git
  
+ # When making an R project, check git directory
+ # save your most recent R script
+ # Click Git tab Environment box
+ # Click the staged box for what we want to commit
+ # select Commit icon (top, papers with a check)
+ # add comment and commit
+ # select push
