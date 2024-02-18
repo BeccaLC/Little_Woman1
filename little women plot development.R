@@ -60,6 +60,7 @@ ggplot(data = lw, mapping = aes(x = Name, y = Times.Mentioned, fill = Name)
    theme_light()
 
  print(lw.plot)
+ ggsave(filename = "lw.plot.png", plot = lw.plot)
 
  # pushing to Git
  
